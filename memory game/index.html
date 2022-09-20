@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MemoryGame</title>
+<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <h1> MemoryGame!  </h1>
+    <button id="rules-btn" class="btn rules-btn"> Show Rules </button>
+    <div id="rules" class="rules">
+        <h2>HOW TO PLAY THE GAME!</h2>
+        <ul>
+            <li><p> You will start by flipping over one card </p></li>
+            <li><p> If the next card you flip matches, a pop up alert notifies you and you get +1 to your score </p></li>
+            <li><p> These cards then disappear </p></li>
+            <li><p> If the next card you flip does not match, a pop up alert notifies you of ths and the cards flip back </p></li>
+            <li><p> The game continues until you match all the cards on the board </p></li>
+        </ul>
+        <button id="close-btn" class="btn"> CLOSE </button>
+    </div>
+     
+    <div class="main">
+        <h3> Your Score: <span class="result"></span></h3>
+        <div class="grid">
+        </div>
+
+    </div>
+    
+   
+    
+<script src="./App12.js"></script>
+</body>
+</html>
